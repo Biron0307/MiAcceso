@@ -3,7 +3,7 @@ document.getElementoById("LoginForm").addEventListener("Submit",function(event){
     var password = document.getElementoById("password").value;
 
     if (email==="eber@gmail.com" && password==="123"){
-        window.location.href="index.html"
+        window.location.href="https://es.wikipedia.org/wiki/Wiki"
     }
     else {
         document.getElementoById("message").innerHTML = "Acceso Denegado.";
